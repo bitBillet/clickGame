@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./style.css">
+    <title>Задача№3</title>
+</head>
+
+<body>
+    <div class="form">
+        <div class="info">
+            <p> нажимать на блоки можно при нажатии кнопки старт</p>
+
+            <p>после нажатия запускается таймер
+
+                при нажатии повторно на одиночный цветной блок вылетает ошибка</p>
+
+            <p>повторно нажимать на блоки с парой можно, ошибки не будет</p>
+
+            <p>всего 8 стандартых цветов, при нажатии на старт цвета рандомно распределяются по блокам</p>
+
+            <p>при нахождении пары блоку цветов становится на 1 меньше</p>
+            <h3>При повторном нажатии на одиночный цветной куб без пары игра крашится</h3>
+        </div>
+        <div id="field">
+            <div class="coub" onclick="clickCoub(0)"></div>
+            <div class="coub" onclick="clickCoub(1)"></div>
+            <div class="coub" onclick="clickCoub(2)"></div>
+            <div class="coub" onclick="clickCoub(3)"></div>
+            <div class="coub" onclick="clickCoub(4)"></div>
+            <div class="coub" onclick="clickCoub(5)"></div>
+            <div class="coub" onclick="clickCoub(6)"></div>
+            <div class="coub" onclick="clickCoub(7)"></div>
+            <div class="coub" onclick="clickCoub(8)"></div>
+            <div class="coub" onclick="clickCoub(9)"></div>
+            <div class="coub" onclick="clickCoub(10)"></div>
+            <div class="coub" onclick="clickCoub(11)"></div>
+            <div class="coub" onclick="clickCoub(12)"></div>
+            <div class="coub" onclick="clickCoub(13)"></div>
+            <div class="coub" onclick="clickCoub(14)"></div>
+            <div class="coub" onclick="clickCoub(15)"></div>
+        </div>
+        <button type="button" id="start" onclick="start()">Старт</button>
+        <p id="timer">00:00.000</p>
+    </div>
+    <script src='./index.js'></script>
+</body>
+
+</html>
